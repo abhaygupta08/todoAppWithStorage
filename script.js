@@ -61,3 +61,19 @@ resetBtn.onclick =function(){arr = []; localStorage.tasksAbhay = ""; taskList.in
 const popup = document.getElementsByClassName("popup");
 const closePopup = document.getElementById("closePopup");
 closePopup.onclick = () => popup[0].style.display = "none";
+
+
+document.querySelector(".iconZ").onclick = function(){
+    const btn = document.querySelector(".darklight");
+    if(btn.classList.contains("fa-moon-o")){
+        btn.classList.remove("fa-moon-o");
+        btn.classList.add("fa-sun-o");
+    }
+    else{
+        btn.classList.remove("fa-sun-o");
+        btn.classList.add("fa-moon-o");
+    }
+    document.querySelector("body").classList.toggle("darkmodeBody");
+    document.getElementById("taskToAdd").classList.toggle("darkmodeInput");
+    document.getElementById("submitBtn").classList.toggle("darkModeinputBtn");
+}
