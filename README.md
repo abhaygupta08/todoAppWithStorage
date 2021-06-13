@@ -11,6 +11,7 @@ A Full Responsive JS based ToDo App with persistent storage and also has ability
 <hr>
 <ul>
   <li>Fully Responsive</li>
+  <li>Dark Mode Support</li>
   <li>With Ability to delete by one or all in one</li>
   <li>Client-Side Storage on their own browser</li>
   <li>Does not takes multiples same todo's in it</li>
