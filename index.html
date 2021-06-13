@@ -16,6 +16,9 @@
 <body>
     <header>
         <label><h1>TODO APP</h1></label>
+        <div class="iconZ">
+            <i class="fa fa-moon-o icon darklight" aria-hidden="true"></i>
+        </div>
     </header>
     <main>
         <section>
@@ -26,11 +29,11 @@
                     </div>
                     <input id="taskToAdd" type="text" placeholder="Task to Add...">
                 </label>
-                <input id="submitBtn" type="button" value="Add Task">
+                <input id="submitBtn" class="lightModeBtn" type="button" value="Add Task">
             </div>
             <div id="taskList">
             </div>
-            <input type="button" value="Delete All TODO's" id="resetAll">
+            <input type="button" class="lightModeBtn" value="Delete All TODO's" id="resetAll">
         </section>
         <div class="popup">
             Click on Any Task to delete it. <span id="closePopup"><i class="fa fa-times" aria-hidden="true"></i>
